@@ -587,6 +587,7 @@ let update = () => {
   glCatPath.end();
 
   init = false;
+  totalFrames ++;
 
   if ( tweak.checkbox( 'save', { value: false } ) ) {
     saveFrame();
